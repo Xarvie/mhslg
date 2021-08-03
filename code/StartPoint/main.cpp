@@ -4,21 +4,21 @@
 #include <cstdint>
 #include <iostream>
 #include "Render.h"
-#include "Process.h"
+#include "CxxProcess.h"
 
 
 int unitLogin(int64_t SPID, int64_t uid, double x, double y) {
-	Process* subProcess = (Process*)(SPID);
+	CxxProcess* subProcess = (CxxProcess*)(SPID);
 	return 0;
 }
 
 int unitLogout(int64_t SPID, int64_t y) {
-	Process* subProcess = (Process*)(SPID);
+    CxxProcess* subProcess = (CxxProcess*)(SPID);
 	return 0;
 }
 
 int init() {
-	Process* subProcess = (Process*)malloc(sizeof (Process));
+    CxxProcess* subProcess = (CxxProcess*)malloc(sizeof (CxxProcess));
 	subProcess->init();
 	return 0;
 }

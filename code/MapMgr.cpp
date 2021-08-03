@@ -3,12 +3,15 @@
 //
 
 #include "MapMgr.h"
+#include <crtdefs.h>
+#include <process.h>
 
 void MapMgr::init()
 {
-	workers.emplace_back(
-			[](){
-				std::this_thread::sleep_for(std::chrono::milliseconds(10));
-			}
-			);
+    std::thread* t = new std::thread([](){
+        std::this_thread::sleep_for(std::chrono::milliseconds(10));
+    });
+
+
+    workers.emplace_back(t);
 }

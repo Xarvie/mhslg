@@ -3,14 +3,14 @@
 //
 
 #ifndef MHSLG_MAP_PROCESS_H
-#define MHSLG_MAP_PROCESS_H
+#define MHSLG_MAP_CXXPROCESS_H
 
 class Render;
 class MapMgr;
-class Process {
+class CxxProcess {
 public:
-	Process() = delete;
-	~Process() = delete;
+	CxxProcess() = delete;
+	~CxxProcess() = delete;
 	void init();
 	void destory();
 public:
