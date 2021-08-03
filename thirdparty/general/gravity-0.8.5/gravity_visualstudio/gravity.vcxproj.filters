@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{91c7749c-0a91-490a-a7df-7a107783622f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\compiler">
+      <UniqueIdentifier>{a754105b-4e51-4f37-a549-d8473e82016a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\runtime">
+      <UniqueIdentifier>{9bfbf753-3405-4d92-94de-0f58ce82367d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\shared">
+      <UniqueIdentifier>{aab15f72-28ce-4858-90b5-df09da2d3975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\utils">
+      <UniqueIdentifier>{f3793f5c-3aa2-463b-91e9-c4131ba37ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4f3e0606-f6fb-4367-a181-f2501c4adaee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\compiler">
+      <UniqueIdentifier>{36efb9db-cb71-4545-a2fa-323c70e831fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\utils">
+      <UniqueIdentifier>{a273150e-4b1a-41ae-a509-940df98109a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\shared">
+      <UniqueIdentifier>{56b0a42a-e403-4b41-a63c-053e4c254ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\runtime">
+      <UniqueIdentifier>{248652c9-1176-43e6-9567-2b89b59afbc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\opt">
+      <UniqueIdentifier>{3f5f57f1-6f1c-4261-904d-9cbcded63f85}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\compiler\debug_macros.h">
+      <Filter>include\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\compiler\gravity_ast.h">
+      <Filter>include\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\compiler\gravity_codegen.h">
+      <Filter>include\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\compiler\gravity_compiler.h">
+      <Filter>include\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\compiler\gravity_ircode.h">
+      <Filter>include\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\compiler\gravity_lexer.h">
+      <Filter>include\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\compiler\gravity_optimizer.h">
+      <Filter>include\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\compiler\gravity_parser.h">
+      <Filter>include\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\compiler\gravity_semacheck1.h">
+      <Filter>include\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\compiler\gravity_semacheck2.h">
+      <Filter>include\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\compiler\gravity_symboltable.h">
+      <Filter>include\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\compiler\gravity_token.h">
+      <Filter>include\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\compiler\gravity_visitor.h">
+      <Filter>include\compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\gravity_core.h">
+      <Filter>include\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\gravity_vm.h">
+      <Filter>include\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\runtime\gravity_vmmacros.h">
+      <Filter>include\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\shared\gravity_array.h">
+      <Filter>include\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\shared\gravity_delegate.h">
+      <Filter>include\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\shared\gravity_hash.h">
+      <Filter>include\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\shared\gravity_macros.h">
+      <Filter>include\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\shared\gravity_memory.h">
+      <Filter>include\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\shared\gravity_opcodes.h">
+      <Filter>include\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\shared\gravity_value.h">
+      <Filter>include\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\shared\gravity_config.h">
+      <Filter>include\shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\gravity_debug.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\gravity_json.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\gravity_utils.h">
+      <Filter>include\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\optionals\gravity_optionals.h">
+      <Filter>src\opt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\optionals\gravity_opt_env.h">
+      <Filter>src\opt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\optionals\gravity_opt_json.h">
+      <Filter>src\opt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\optionals\gravity_opt_math.h">
+      <Filter>src\opt</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\optionals\gravity_opt_file.h">
+      <Filter>src\opt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\compiler\gravity_codegen.c">
+      <Filter>src\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\compiler\gravity_compiler.c">
+      <Filter>src\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\compiler\gravity_ircode.c">
+      <Filter>src\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\compiler\gravity_lexer.c">
+      <Filter>src\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\compiler\gravity_optimizer.c">
+      <Filter>src\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\compiler\gravity_parser.c">
+      <Filter>src\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\compiler\gravity_semacheck1.c">
+      <Filter>src\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\compiler\gravity_semacheck2.c">
+      <Filter>src\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\compiler\gravity_symboltable.c">
+      <Filter>src\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\compiler\gravity_token.c">
+      <Filter>src\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\compiler\gravity_visitor.c">
+      <Filter>src\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\gravity_debug.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\gravity_json.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\gravity_utils.c">
+      <Filter>src\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\shared\gravity_hash.c">
+      <Filter>src\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\shared\gravity_memory.c">
+      <Filter>src\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\shared\gravity_value.c">
+      <Filter>src\shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\gravity_core.c">
+      <Filter>src\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\runtime\gravity_vm.c">
+      <Filter>src\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\compiler\gravity_ast.c">
+      <Filter>src\compiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\optionals\gravity_opt_env.c">
+      <Filter>src\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\optionals\gravity_opt_json.c">
+      <Filter>src\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\optionals\gravity_opt_math.c">
+      <Filter>src\opt</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\optionals\gravity_opt_file.c">
+      <Filter>src\opt</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
