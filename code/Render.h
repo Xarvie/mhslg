@@ -5,10 +5,13 @@
 #ifndef MHSLG_MAP_RENDER_H
 #define MHSLG_MAP_RENDER_H
 
+#include <thread>
 
 class Render {
 public:
 	int RenderInit(void);
+	std::thread* th;
+	bool running;
 };
 
 
